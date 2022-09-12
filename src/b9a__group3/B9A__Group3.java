@@ -18,6 +18,7 @@ public class B9A__Group3 {
         // TODO code application logic here
         
         System.out.println("Hello, I am Lamar");
+        System.out.println("Hello, I'm Noura");
     }
     
 }
