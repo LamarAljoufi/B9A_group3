@@ -19,6 +19,7 @@ public class B9A__Group3 {
         
         System.out.println("Hello, I am Lamar");
         System.out.println("Hello, I'm Noura");
+        System.out.println("Hello, I am Farah");
     }
     
 }
