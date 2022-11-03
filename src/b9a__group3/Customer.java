@@ -1,4 +1,4 @@
-
+package b9a_group3;
 public class Customer {
 
     private String name;
