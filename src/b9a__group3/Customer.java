@@ -1,4 +1,3 @@
-package marinedream;
 
 public class Customer {
 
