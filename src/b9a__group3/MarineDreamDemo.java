@@ -9,7 +9,7 @@ package b9a__group3;
  *
  * @author DELL
  */
-public class B9A__Group3 {
+public class MarineDreamDemo {
 
     /**
      * @param args the command line arguments
