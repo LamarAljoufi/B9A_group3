@@ -1,5 +1,4 @@
-package marinedream;
-
+package b9a_group3;
 public class Sailing extends Service {
 
     private int numOfPeople;
