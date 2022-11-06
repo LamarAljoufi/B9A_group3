@@ -29,4 +29,17 @@ public class MarineDreamDemo {
             output.println(((Sailing) service).upgradeTicket(choice));
         }
     }
+    
+     //print menu only
+    static void displayMenu() {
+        System.out.print("\n\n---------------------------------------------------"
+                + "\n----------- Welcome to Marine Dream App -----------"
+                + "\n---------------------------------------------------"
+                + "\n\nEnjoy sea trips with Marine Dream online booking service!"
+                + "\n\n--------------------------------------"
+                + "\nChoose a marine service:"
+                + "\n1- Fishing"
+                + "\n2- Sailing"
+                + "\nEnter your choice: ");
+    }
 }
