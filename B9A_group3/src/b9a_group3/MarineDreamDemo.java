@@ -1,5 +1,10 @@
 package b9a_group3;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class MarineDreamDemo {
     
     private static Scanner input;
@@ -79,6 +84,7 @@ public class MarineDreamDemo {
 
         return new Customer(name, phone, age);
     }
+    
     static void displayUgrade(Service service, int choice) {
         if (service instanceof Fishing) {
             output.println(((Fishing) service).upgradeTicket(choice));
@@ -98,5 +104,39 @@ public class MarineDreamDemo {
                 + "\n1- Fishing"
                 + "\n2- Sailing"
                 + "\nEnter your choice: ");
+    }
+    
+    
+     static void upgradeMenu(Service service) {
+        System.out.println("---------------------------------------------------"
+                + "\nMake your trip enjoyable and upgrade your ticket with marine app  "
+                + "\n---------------------------------------------------");
+
+        if (service instanceof Fishing) {
+            System.out.println("------- VIP -------"
+                    + "\n- Fisherman helper"
+                    + "\n- 2x Fishing payload"
+                    + "\n- Inshore fishing");
+            System.out.println("\n------- VVIP -------"
+                    + "\n- Fisherman helper"
+                    + "\n- 3x Fishing payload"
+                    + "\n- Deep sea fishing");
+
+        } else {
+            System.out.println("------- VIP -------"
+                    + "\n- Meal of your choice"
+                    + "\n- Sea activites");
+            System.out.println("\n------- VVIP -------"
+                    + "\n- Cuisine of your choice"
+                    + "\n- Snorkeling"
+                    + "\n- Jetski");
+
+        }
+
+        System.out.print("\nServices list:"
+                + "\n1- VIP"
+                + "\n2- VVIP"
+                + "\notherwise press 0 to exit"
+                + "\n--Enter your choice:");
     }
 }
