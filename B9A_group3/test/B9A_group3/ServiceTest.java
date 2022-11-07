@@ -5,6 +5,8 @@
  */
 package B9A_group3;
 
+import b9a_group3.Service;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

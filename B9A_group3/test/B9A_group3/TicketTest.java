@@ -1,4 +1,11 @@
 
+
+package B9A_group3;
+
+import b9a_group3.Ticket;
+import b9a_group3.Fishing;
+import b9a_group3.Customer;
+import b9a_group3.Sailing;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

@@ -1,0 +1,17 @@
+
+----------- Thank you for your reserveation from Marine Dream -----------
+Customer details: 
+-- Name: ww	 Phone: 33	Age: 3
+Ticket details:
+-- Service type: Fishing - Basic, ID: 160	Time: 3	Date: 44/44	Duration: 5
+-- Fishing Payload: 50	equipments: basic 
+
+Ticket price: 2000.0$
+----------------------------------------------
+----------- Ticket is upgrader to VIP -----------
+VIP services:
+-- Fisherman helper
+-- 2x Fishing payload
+-- Inshore fishing
+Upgraded ticket price: 3500.0$
+"----------------------------------------------
